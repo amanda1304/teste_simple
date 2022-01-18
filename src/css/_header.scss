@@ -23,13 +23,29 @@
             font-size: 1.2em;
         }
 
+        button {
+
+             &{
+                border-radius: 50px;
+            }
+
+            &:hover {
+                background-color: rebeccapurple;
+            }
+
+            &:active {
+                background-color: orangered;
+            }
+
+        }
+
     }
 
     a.area-usuario {
 
         img {
             width: 25px;
-            }
+        }
 
     }
 
