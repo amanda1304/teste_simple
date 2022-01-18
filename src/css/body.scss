@@ -1,0 +1,29 @@
+
+body {
+    margin: 0;
+
+    & {
+        @import"reset";
+    } 
+    & {
+        @import"responsive";
+    }
+    & {
+        font-family: 'Bebas Neue', cursive;
+    }
+
+    header {
+        @import"header";
+    }
+
+    section {
+        @import"section";
+        @import"main";
+
+    }
+
+    footer {
+        @import"footer";
+    }
+
+}

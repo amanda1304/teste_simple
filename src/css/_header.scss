@@ -1,0 +1,36 @@
+& {
+
+    & { 
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        border-bottom: 1px solid orangered;
+    }
+
+    .pesquisa {
+
+        & {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border: 1px solid rebeccapurple;
+            border-radius: 20px;
+            padding: 0 10px;
+        }
+
+        input {
+            text-align: center;
+            font-size: 1.2em;
+        }
+
+    }
+
+    a.area-usuario {
+
+        img {
+            width: 25px;
+            }
+
+    }
+
+}
