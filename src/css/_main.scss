@@ -45,14 +45,14 @@ main {
                         font-size: 1.3em;
                         font-weight: 700;
                         color: orangered;
-                        margin-top: 5px;
+                        margin-top: 20px;
     
                     }
 
                 }
 
                 img {
-                    width: 140px;
+                    width: 150px;
                     object-fit: cover;
                     object-position:center;
                     
@@ -67,6 +67,12 @@ main {
                 border: 1px solid rebeccapurple;
                 border-radius: 30px;
                 font-family: cursive;
+
+                &:active {
+                    padding: 9px;
+                    border: 2px solid rebeccapurple ;
+                }
+
             }
 
         }
