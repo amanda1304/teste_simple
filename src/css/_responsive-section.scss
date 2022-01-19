@@ -1,15 +1,8 @@
-
-@import "responsive-main";
-    
 @media screen and (max-width:360px) {
-
+    
     & {
-
-        & {
-            padding: 0; 
-            padding-bottom: 10px;  
-        }
-
+        padding: 0; 
+        padding-bottom: 10px;  
     }
 
 }

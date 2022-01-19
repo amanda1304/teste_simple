@@ -1,12 +1,11 @@
-& {
 
         @media screen and (max-width:551px) {
-            header {
-                & {
-                    flex-direction: column;
-                }
+            & {
 
+                flex-direction: column;
+            
                 .pesquisa {
+                    
                     margin-bottom: 5px;
                 }
 
@@ -15,17 +14,16 @@
         }
 
         @media screen and (max-width:400px) {
+        
+            .pesquisa {
 
-            header {
+                width: 200px;
         
-                .pesquisa {
-                    width: 200px;
-        
-                    input {
-                        width: 150px;
-                    }
+                input {
+
+                    width: 150px;
                 }
-        
+
             }
            
         }
@@ -33,4 +31,3 @@
    
    
     
-}

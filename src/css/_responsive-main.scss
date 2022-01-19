@@ -1,62 +1,48 @@
-main {
+@media screen and (max-width:628px) {
 
-    @media screen and (max-width:628px) {
-        
-        & {
-
-            ul li{
-
-                &{
-                    justify-content: center;
-                    align-items: center;
-                }
-
-                h2 {
-                    margin-bottom: 5px;
-                }
-        
-                p {
-                    flex-direction: column;
-                    align-items: center;
+    ul li{
                 
-                    span {
+        justify-content: center;
+        align-items: center;
 
-                        & {
-                            order: 2;
-                        }
-
-                        &[data-preco]::after {
-                            text-align: center;
-                        }
-
-                    }
-                    
-                    img {   
-                        position: relative;
-                        order: 1;
-                    }    
-            
-                }
+        h2 {
+            margin-bottom: 5px;
+        }
+        
+        p {
+            flex-direction: column;
+            align-items: center;
                 
+            span {
+
+                order: 2;
+
+                &[data-preco]::after {
+                    text-align: center;
+                }
+
             }
+                    
+            img {   
+                position: relative;
+                order: 1;
+            }       
 
         } 
 
     }
 
-    @media screen and (max-width:493px) {
+}
 
-        & ul li {
+@media screen and (max-width:493px) {
 
-            &{
+        ul li {
+
                 margin: 0;
-            }
         
             p {
 
-                & {
                     margin: 0;
-                }
 
                 span {
                     margin: 5px 0 ;
@@ -74,10 +60,8 @@ main {
         & {
 
             ul {
-
-                & { 
+ 
                     margin: 5px;
-                }
 
                 li {
 
@@ -93,4 +77,4 @@ main {
 
     }
 
-}
+

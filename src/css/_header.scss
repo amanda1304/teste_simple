@@ -1,22 +1,18 @@
 & {
 
-    & { 
         display: flex;
         justify-content: space-around;
         align-items: center;
         border-bottom: 1px solid orangered;
-    }
 
     .pesquisa {
 
-        & {
             display: flex;
             justify-content: space-between;
             align-items: center;
             border: 1px solid rebeccapurple;
             border-radius: 20px;
             padding: 0 10px;
-        }
 
         input {
             text-align: center;
@@ -25,9 +21,7 @@
 
         button {
 
-             &{
                 border-radius: 50px;
-            }
 
             &:hover {
                 background-color: rebeccapurple;

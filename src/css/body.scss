@@ -1,33 +1,23 @@
+@import"./reset";
 
 body {
-
-    & {
-        margin: 0;
-    }
-
-    & {
-        @import"reset";
-    }
-
-    & {
-        @import"responsive-header";
-    }
     
-    & {
         font-family: 'Bebas Neue', cursive;
-    }
 
     header {
-        @import"header";
+        @import"./header";
+        @import"./responsive-header";
     }
 
     section {
-        @import"section";
-        @import"main";
+
+        @import"./section";
+        @import "responsive-section";
+
     }
 
     footer {
-        @import"footer";
+        @import"./footer";
     }
 
 }
