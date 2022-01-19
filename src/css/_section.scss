@@ -1,7 +1,4 @@
 & {
-
-    @import"main";
-    @import "responsive-main";
         
     background-color: #f7f7f7;
     padding: 15px 50px 50px ;
@@ -12,5 +9,8 @@
         color: #acacac;
         padding-bottom: 15px;
     }
+
+    @import"main";
+    @import "responsive-main";
 
 }
